@@ -1,11 +1,28 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<title>etch-a-sketch</title>
+		<meta charset="utf-8">
+    	<meta name="description" content="JS/Jquery Project for The Odin Project">
+    	<meta name="author" content="Pedro Amaral"> 
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 	<body>
-		<button type="button" onclick="onButtonClick()">Build grid!</button>
+		<header>
+	        <h1>etch-a-sketch</h1>
+	        <div class="controls">
+		    <button type="button" onclick="onButtonClick()">Build grid!</button>
+		        <select id="mode">
+				  <option value="regular">Regular</option>
+				  <option value="random">Random Color</option>
+				  <option value="darken">Darken Color</option>
+				  <option value="lighten">Lighten Color</option>
+				</select>
+				<input type="checkbox" name="border" checked/>Borders</div>
+	    	    
+	    </header>
+
 		<div id="container"></div>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	
