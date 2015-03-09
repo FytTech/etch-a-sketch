@@ -1,0 +1,25 @@
+
+#container{
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 800px;
+}
+
+.square{
+	border: dotted;
+	border-width: 1px;
+	color: black;
+	height: 48px;
+	width: 48px;
+	float: left;
+}
+
+.col1 {
+	clear: left;
+}
+
+.painted {
+	background-color: red;
+}
